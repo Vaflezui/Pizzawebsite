@@ -292,8 +292,8 @@
       .menu-grid { grid-template-columns: 1fr; }
       .gallery-grid { grid-template-columns: 1fr; grid-template-rows: unset; }
       .gallery-item:nth-child(n) { grid-column: unset; grid-row: unset; height: 220px; }
-      .sticky-call { display: flex; }
-      .hero-actions .btn-secondary { display: none; }
+      .sticky-call { display: none; }
+      /* hero-actions .btn-secondary is not hidden on mobile anymore */
       .hero-title { color: #ffffff; font-size: clamp(3rem, 13vw, 5rem); }
     }
   

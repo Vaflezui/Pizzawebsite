@@ -6,7 +6,7 @@ import { Product } from './db-helper'; // re-use the type
 export async function getProducts(): Promise<Product[]> {
   if (process.env.POSTGRES_URL) {
     try {
-      const { rows } = await sql`SELECT * FROM products ORDER BY id ASC`;
+      const { rows } = await sql`SELECT * FROM products ORDER BY order_index ASC`;
       return rows as Product[];
     } catch (e) {
       console.error('Postgres error:', e);
