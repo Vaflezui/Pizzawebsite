@@ -269,21 +269,21 @@
     }
     @media (max-width: 700px) {
       :root { --section-pad: 60px 16px; }
-      .nav-logo-img { width: 42px; height: 42px; }
+      .nav-logo-img { width: 52px; height: 52px; }
       .nav-logo-text-img {
           position: absolute;
-          left: 40px;
+          left: 48px;
           top: 50%;
           transform: translateY(-42%);
-          height: 60px;
+          height: 72px;
           width: auto;
           max-width: none;
           object-fit: contain;
           pointer-events: none;
         }
       .nav-links { display: none; }
-      .nav-links.open { display: flex; flex-direction: column; position: fixed; inset: 0; background: rgba(253,246,236,.97); justify-content: center; align-items: center; gap: 24px; backdrop-filter: blur(10px); z-index: 999; }
-      .nav-links.open a { font-size: 1.2rem; }
+      .nav-links.open { display: flex; flex-direction: column; position: fixed; top: 0; left: 0; right: 0; bottom: 0; height: 100vh; background: rgba(253,246,236,.98); justify-content: center; align-items: center; gap: 36px; backdrop-filter: blur(10px); z-index: 999; margin: 0; padding: 0; }
+      .nav-links.open a { font-size: 1.4rem; }
       .burger { display: flex; z-index: 1001; }
       .burger.open span:nth-child(1) { transform: translateY(7.5px) rotate(45deg); }
       .burger.open span:nth-child(2) { opacity: 0; }
@@ -293,10 +293,15 @@
       .gallery-grid { grid-template-columns: 1fr; grid-template-rows: unset; }
       .gallery-item:nth-child(n) { grid-column: unset; grid-row: unset; height: 220px; }
       .sticky-call { display: none; }
-      /* hero-actions .btn-secondary is not hidden on mobile anymore */
-      .hero-title { color: #ffffff; font-size: clamp(2.5rem, 11vw, 4rem); line-height: 1.15; margin-bottom: 20px; }
-      .hero-slogan { font-size: 1rem; margin-bottom: 20px; }
-      .btn { padding: 12px 24px; font-size: 0.9rem; }
+      /* mobile fixes */
+      .nav-links .nav-cta { padding: 14px 28px !important; font-size: 1.2rem !important; margin-top: 10px; }
+      .nav-back + .nav-cta { padding: 8px 10px !important; font-size: 0.75rem !important; }
+      .nav-back { padding: 8px 10px; font-size: 0.75rem; gap: 4px; }
+      .nav-back svg { width: 14px; height: 14px; }
+      .hero-actions { flex-direction: column; align-items: center; width: 100%; gap: 16px; }
+      .hero-actions .btn { width: 100%; max-width: 280px; justify-content: center; padding: 14px 20px; }
+      .hero-title { color: #ffffff; font-size: clamp(3rem, 13vw, 5rem); line-height: 1.15; margin-bottom: 20px; }
+      .hero-slogan { font-size: 1rem; margin-bottom: 24px; }
       .section-title { font-size: clamp(1.8rem, 6vw, 2.5rem); }
     }
   
