@@ -295,9 +295,12 @@
       .sticky-call { display: none; }
       /* mobile fixes */
       .nav-links .nav-cta { padding: 14px 28px !important; font-size: 1.2rem !important; margin-top: 10px; }
-      .nav-back + .nav-cta { padding: 8px 10px !important; font-size: 0.75rem !important; }
-      .nav-back { padding: 8px 10px; font-size: 0.75rem; gap: 4px; }
-      .nav-back svg { width: 14px; height: 14px; }
+      
+      .btn-text { display: none; }
+      .nav-back + .nav-cta { padding: 0 !important; width: 36px !important; height: 36px !important; border-radius: 50% !important; justify-content: center; }
+      .nav-back { padding: 0; width: 36px; height: 36px; border-radius: 50%; justify-content: center; }
+      .nav-back svg, .nav-cta svg { width: 18px; height: 18px; margin: 0 !important; }
+      
       .hero-actions { flex-direction: column; align-items: center; width: 100%; gap: 16px; }
       .hero-actions .btn { width: 100%; max-width: 280px; justify-content: center; padding: 14px 20px; }
       .hero-title { color: #ffffff; font-size: clamp(3rem, 13vw, 5rem); line-height: 1.15; margin-bottom: 20px; }
