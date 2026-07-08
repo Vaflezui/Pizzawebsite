@@ -1,0 +1,671 @@
+{
+  "products": [
+    {
+      "id": "prod_1783518139746_1",
+      "category": "pizza",
+      "title": "Основа для піци",
+      "description": "тісто без начинки",
+      "image": "images/pizza_01_base.jpg",
+      "active": true,
+      "variants": [
+        {
+          "size": "200г",
+          "price": "25"
+        },
+        {
+          "size": "400г",
+          "price": "50"
+        }
+      ]
+    },
+    {
+      "id": "prod_1783518139746_2",
+      "category": "pizza",
+      "title": "М'ясна",
+      "description": "тісто, соус вершковий, моцарела, вирізка свинини, цибуля, печериця",
+      "image": "images/pizza_02_meat.jpg",
+      "active": true,
+      "variants": [
+        {
+          "size": "Мала",
+          "price": "175"
+        },
+        {
+          "size": "Велика",
+          "price": "350"
+        }
+      ]
+    },
+    {
+      "id": "prod_1783518139746_3",
+      "category": "pizza",
+      "title": "Три види м'яса",
+      "description": "тісто, соус томатний, моцарела, салямі, пепероні, шинка",
+      "image": "images/pizza_03_threemeat.jpg",
+      "active": true,
+      "variants": [
+        {
+          "size": "Мала",
+          "price": "160"
+        },
+        {
+          "size": "Велика",
+          "price": "320"
+        }
+      ]
+    },
+    {
+      "id": "prod_1783518139746_4",
+      "category": "pizza",
+      "title": "Мисливська",
+      "description": "тісто, соус томатний, моцарела, мисливські ковбаски, цибуля, печериця, петрушка",
+      "image": "images/pizza_04_hunter.jpg",
+      "active": true,
+      "variants": [
+        {
+          "size": "Мала",
+          "price": "150"
+        },
+        {
+          "size": "Велика",
+          "price": "300"
+        }
+      ]
+    },
+    {
+      "id": "prod_1783518139746_5",
+      "category": "pizza",
+      "title": "Три види сиру",
+      "description": "тісто, соус вершковий, моцарела, фета, пармезан",
+      "image": "images/pizza_05_threecheese.jpg",
+      "active": true,
+      "variants": [
+        {
+          "size": "Мала",
+          "price": "150"
+        },
+        {
+          "size": "Велика",
+          "price": "300"
+        }
+      ]
+    },
+    {
+      "id": "prod_1783518139746_6",
+      "category": "pizza",
+      "title": "Грецька",
+      "description": "тісто, соус томатний, моцарела, помідор, перець болгарський, маслини, фета, кріп",
+      "image": "images/pizza_06_greek.jpg",
+      "active": true,
+      "variants": [
+        {
+          "size": "Мала",
+          "price": "140"
+        },
+        {
+          "size": "Велика",
+          "price": "280"
+        }
+      ]
+    },
+    {
+      "id": "prod_1783518139746_7",
+      "category": "pizza",
+      "title": "Вегетаріанська",
+      "description": "тісто, соус томатний, моцарела, помідори, печериці, перець болгарський",
+      "image": "images/pizza_07_vegetarian.jpg",
+      "active": true,
+      "variants": [
+        {
+          "size": "Мала",
+          "price": "130"
+        },
+        {
+          "size": "Велика",
+          "price": "260"
+        }
+      ]
+    },
+    {
+      "id": "prod_1783518139746_8",
+      "category": "pizza",
+      "title": "З лососем",
+      "description": "тісто, соус вершковий, моцарела, лосось, оливки, помідори, цибуля зелена, кріп",
+      "image": "images/pizza_08_salmon.jpg",
+      "active": true,
+      "variants": [
+        {
+          "size": "Мала",
+          "price": "180"
+        },
+        {
+          "size": "Велика",
+          "price": "360"
+        }
+      ]
+    },
+    {
+      "id": "prod_1783518139746_9",
+      "category": "pizza",
+      "title": "Карбонара",
+      "description": "тісто, соус вершковий, соус песто, моцарела, пармезан, бекон, помідори",
+      "image": "images/pizza_09_carbonara.jpg",
+      "active": true,
+      "variants": [
+        {
+          "size": "Мала",
+          "price": "150"
+        },
+        {
+          "size": "Велика",
+          "price": "300"
+        }
+      ]
+    },
+    {
+      "id": "prod_1783518139746_10",
+      "category": "pizza",
+      "title": "Фритата",
+      "description": "тісто, соус томатний, моцарела, бекон, курка, перець чілі, цибуля, часник, петрушка, пармезан",
+      "image": "images/pizza_10_frittata.jpg",
+      "active": true,
+      "variants": [
+        {
+          "size": "Мала",
+          "price": "150"
+        },
+        {
+          "size": "Велика",
+          "price": "300"
+        }
+      ]
+    },
+    {
+      "id": "prod_ncg1ilgu0",
+      "category": "sauces",
+      "title": "Соус томатний",
+      "description": "Додаток до страви",
+      "image": "",
+      "active": true,
+      "variants": [
+        {
+          "size": "Мала (75г)",
+          "price": "25"
+        },
+        {
+          "size": "Велика (150г)",
+          "price": "50"
+        }
+      ]
+    },
+    {
+      "id": "prod_argbdvnuk",
+      "category": "sauces",
+      "title": "Соус вершковий",
+      "description": "Додаток до страви",
+      "image": "",
+      "active": true,
+      "variants": [
+        {
+          "size": "Мала (75г)",
+          "price": "25"
+        },
+        {
+          "size": "Велика (150г)",
+          "price": "50"
+        }
+      ]
+    },
+    {
+      "id": "prod_g1gpm53wt",
+      "category": "sauces",
+      "title": "Соус дует",
+      "description": "Додаток до страви",
+      "image": "",
+      "active": true,
+      "variants": [
+        {
+          "size": "Мала (75г)",
+          "price": "25"
+        },
+        {
+          "size": "Велика (150г)",
+          "price": "50"
+        }
+      ]
+    },
+    {
+      "id": "prod_15kv0qr7h",
+      "category": "sauces",
+      "title": "Соус мексика",
+      "description": "Додаток до страви",
+      "image": "",
+      "active": true,
+      "variants": [
+        {
+          "size": "Мала (75г)",
+          "price": "25"
+        },
+        {
+          "size": "Велика (150г)",
+          "price": "50"
+        }
+      ]
+    },
+    {
+      "id": "prod_o0uy5ijmn",
+      "category": "cheese",
+      "title": "Сир моцарелла",
+      "description": "Додаток до страви",
+      "image": "",
+      "active": true,
+      "variants": [
+        {
+          "size": "Мала (50г)",
+          "price": "25"
+        },
+        {
+          "size": "Велика (100г)",
+          "price": "50"
+        }
+      ]
+    },
+    {
+      "id": "prod_rzu52awdv",
+      "category": "cheese",
+      "title": "Сир пармезан",
+      "description": "Додаток до страви",
+      "image": "",
+      "active": true,
+      "variants": [
+        {
+          "size": "Мала (50г)",
+          "price": "50"
+        },
+        {
+          "size": "Велика (100г)",
+          "price": "100"
+        }
+      ]
+    },
+    {
+      "id": "prod_de67ufmgx",
+      "category": "cheese",
+      "title": "Сир фета",
+      "description": "Додаток до страви",
+      "image": "",
+      "active": true,
+      "variants": [
+        {
+          "size": "Мала (50г)",
+          "price": "24"
+        },
+        {
+          "size": "Велика (100г)",
+          "price": "48"
+        }
+      ]
+    },
+    {
+      "id": "prod_y2xrqeg2k",
+      "category": "meat",
+      "title": "Курка гриль",
+      "description": "Додаток до страви",
+      "image": "",
+      "active": true,
+      "variants": [
+        {
+          "size": "Мала (50г)",
+          "price": "25"
+        },
+        {
+          "size": "Велика (100г)",
+          "price": "50"
+        }
+      ]
+    },
+    {
+      "id": "prod_e8n4wfbt7",
+      "category": "meat",
+      "title": "Бекон",
+      "description": "Додаток до страви",
+      "image": "",
+      "active": true,
+      "variants": [
+        {
+          "size": "Мала (50г)",
+          "price": "25"
+        },
+        {
+          "size": "Велика (100г)",
+          "price": "50"
+        }
+      ]
+    },
+    {
+      "id": "prod_3iem309mm",
+      "category": "meat",
+      "title": "Салямі",
+      "description": "Додаток до страви",
+      "image": "",
+      "active": true,
+      "variants": [
+        {
+          "size": "Мала (50г)",
+          "price": "25"
+        },
+        {
+          "size": "Велика (100г)",
+          "price": "50"
+        }
+      ]
+    },
+    {
+      "id": "prod_pm8h0lk8i",
+      "category": "meat",
+      "title": "Папероні",
+      "description": "Додаток до страви",
+      "image": "",
+      "active": true,
+      "variants": [
+        {
+          "size": "Мала (50г)",
+          "price": "25"
+        },
+        {
+          "size": "Велика (100г)",
+          "price": "50"
+        }
+      ]
+    },
+    {
+      "id": "prod_rvh9hvglq",
+      "category": "meat",
+      "title": "Шинка",
+      "description": "Додаток до страви",
+      "image": "",
+      "active": true,
+      "variants": [
+        {
+          "size": "Мала (50г)",
+          "price": "25"
+        },
+        {
+          "size": "Велика (100г)",
+          "price": "50"
+        }
+      ]
+    },
+    {
+      "id": "prod_5356rtgf4",
+      "category": "veg",
+      "title": "Помідор",
+      "description": "Додаток до страви",
+      "image": "",
+      "active": true,
+      "variants": [
+        {
+          "size": "Мала (50г)",
+          "price": "20"
+        },
+        {
+          "size": "Велика (100г)",
+          "price": "40"
+        }
+      ]
+    },
+    {
+      "id": "prod_xfj791guu",
+      "category": "veg",
+      "title": "Перець",
+      "description": "Додаток до страви",
+      "image": "",
+      "active": true,
+      "variants": [
+        {
+          "size": "Мала (50г)",
+          "price": "23"
+        },
+        {
+          "size": "Велика (100г)",
+          "price": "46"
+        }
+      ]
+    },
+    {
+      "id": "prod_o8wgmhvm2",
+      "category": "veg",
+      "title": "Маслини б/к",
+      "description": "Додаток до страви",
+      "image": "",
+      "active": true,
+      "variants": [
+        {
+          "size": "Мала (15г)",
+          "price": "8"
+        },
+        {
+          "size": "Велика (30г)",
+          "price": "16"
+        }
+      ]
+    },
+    {
+      "id": "prod_nuo9xhgea",
+      "category": "veg",
+      "title": "Оливки б/к",
+      "description": "Додаток до страви",
+      "image": "",
+      "active": true,
+      "variants": [
+        {
+          "size": "Мала (15г)",
+          "price": "8"
+        },
+        {
+          "size": "Велика (30г)",
+          "price": "16"
+        }
+      ]
+    },
+    {
+      "id": "prod_r8ggbclzk",
+      "category": "veg",
+      "title": "Кукурудза конс.",
+      "description": "Додаток до страви",
+      "image": "",
+      "active": true,
+      "variants": [
+        {
+          "size": "Мала (15г)",
+          "price": "7"
+        },
+        {
+          "size": "Велика (30г)",
+          "price": "14"
+        }
+      ]
+    },
+    {
+      "id": "prod_jz36w494l",
+      "category": "veg",
+      "title": "Ананас конс.",
+      "description": "Додаток до страви",
+      "image": "",
+      "active": true,
+      "variants": [
+        {
+          "size": "Мала (40г)",
+          "price": "20"
+        },
+        {
+          "size": "Велика (80г)",
+          "price": "40"
+        }
+      ]
+    },
+    {
+      "id": "prod_ah72yoaed",
+      "category": "veg",
+      "title": "Цибуля",
+      "description": "Додаток до страви",
+      "image": "",
+      "active": true,
+      "variants": [
+        {
+          "size": "Мала (20г)",
+          "price": "8"
+        },
+        {
+          "size": "Велика (40г)",
+          "price": "16"
+        }
+      ]
+    },
+    {
+      "id": "prod_tx7x7rrgj",
+      "category": "veg",
+      "title": "Корнішони",
+      "description": "Додаток до страви",
+      "image": "",
+      "active": true,
+      "variants": [
+        {
+          "size": "Мала (25г)",
+          "price": "15"
+        },
+        {
+          "size": "Велика (50г)",
+          "price": "30"
+        }
+      ]
+    },
+    {
+      "id": "prod_fye1zmnni",
+      "category": "veg",
+      "title": "Гриби печериці с/в",
+      "description": "Додаток до страви",
+      "image": "",
+      "active": true,
+      "variants": [
+        {
+          "size": "Мала (25г)",
+          "price": "20"
+        },
+        {
+          "size": "Велика (50г)",
+          "price": "40"
+        }
+      ]
+    },
+    {
+      "id": "prod_ewupp1qj2",
+      "category": "veg",
+      "title": "Петрушка с/в",
+      "description": "Додаток до страви",
+      "image": "",
+      "active": true,
+      "variants": [
+        {
+          "size": "Мала (3г)",
+          "price": "3"
+        },
+        {
+          "size": "Велика (6г)",
+          "price": "6"
+        }
+      ]
+    },
+    {
+      "id": "prod_ra6qgl0ob",
+      "category": "veg",
+      "title": "Кріп с/в",
+      "description": "Додаток до страви",
+      "image": "",
+      "active": true,
+      "variants": [
+        {
+          "size": "Мала (3г)",
+          "price": "3"
+        },
+        {
+          "size": "Велика (6г)",
+          "price": "6"
+        }
+      ]
+    },
+    {
+      "id": "prod_s4vz8qifz",
+      "category": "veg",
+      "title": "Базилік с/в",
+      "description": "Додаток до страви",
+      "image": "",
+      "active": true,
+      "variants": [
+        {
+          "size": "Мала (3г)",
+          "price": "5"
+        },
+        {
+          "size": "Велика (6г)",
+          "price": "10"
+        }
+      ]
+    },
+    {
+      "id": "prod_bvzjvim8z",
+      "category": "veg",
+      "title": "Перець чілі",
+      "description": "Додаток до страви",
+      "image": "",
+      "active": true,
+      "variants": [
+        {
+          "size": "Мала (15г)",
+          "price": "10"
+        },
+        {
+          "size": "Велика (30г)",
+          "price": "20"
+        }
+      ]
+    },
+    {
+      "id": "prod_xnnn7bvwv",
+      "category": "veg",
+      "title": "Перець марин.",
+      "description": "Додаток до страви",
+      "image": "",
+      "active": true,
+      "variants": [
+        {
+          "size": "Мала (25г)",
+          "price": "25"
+        },
+        {
+          "size": "Велика (50г)",
+          "price": "50"
+        }
+      ]
+    },
+    {
+      "id": "prod_jhuncrq1d",
+      "category": "veg",
+      "title": "Рукола",
+      "description": "Додаток до страви",
+      "image": "",
+      "active": true,
+      "variants": [
+        {
+          "size": "Мала (10г)",
+          "price": "20"
+        },
+        {
+          "size": "Велика (20г)",
+          "price": "40"
+        }
+      ]
+    }
+  ],
+  "orders": []
+}
